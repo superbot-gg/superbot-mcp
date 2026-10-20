@@ -1,7 +1,7 @@
 {
   "name": "superbot",
   "version": "0.1.0",
-  "description": "superbot is an agent manager app that manages the AI apps you already pay for. This extension adds its one MCP tool, superbot, and a skill that shows Gemini CLI how to use it.",
+  "description": "superbot is your own AI agent: one model that makes pictures, video, songs, 3D and apps, browses the web and uses your computer, on desktop and phone. This extension adds its one MCP tool, superbot, and a skill that shows Gemini CLI how to use it.",
   "mcpServers": {
     "superbot": {
       "httpUrl": "https://api.superbot.gg/mcp"

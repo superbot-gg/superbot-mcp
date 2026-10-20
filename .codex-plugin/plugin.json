@@ -1,25 +1,25 @@
 {
   "name": "superbot",
   "version": "0.1.0",
-  "description": "superbot is an agent manager app that manages the AI apps you already pay for. This plugin adds its one MCP tool, superbot, and a skill that shows Codex how to use it.",
+  "description": "superbot is your own AI agent: one model that makes pictures, video, songs, 3D and apps, browses the web and uses your computer, on desktop and phone. This plugin adds its one MCP tool, superbot, and a skill that shows Codex how to use it.",
   "author": {
     "name": "EZO Labs Inc",
-    "url": "https://superbot.gg/download"
+    "url": "https://superbot.gg/?utm_source=codex-plugin&utm_medium=registry"
   },
-  "homepage": "https://superbot.gg/download",
+  "homepage": "https://superbot.gg/?utm_source=codex-plugin&utm_medium=registry",
   "repository": "https://github.com/superbot-gg/superbot-mcp",
   "license": "MIT",
-  "keywords": ["superbot", "mcp", "agent-manager", "skills"],
+  "keywords": ["superbot", "mcp", "ai-agent", "skills"],
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "superbot",
-    "shortDescription": "An agent manager for the AI apps you already pay for",
-    "longDescription": "superbot is an agent manager app: a desktop app that manages the AI apps you already pay for, without wrapping or replacing them. This plugin connects Codex to its one MCP tool, superbot, which takes a request in plain words and hands back a finished result.",
+    "shortDescription": "Your own AI agent, as one MCP tool and a skill",
+    "longDescription": "superbot is your own AI agent: one model that makes pictures, video, songs, 3D and apps, browses the web and uses your computer, on desktop and phone. This plugin connects Codex to its one MCP tool, superbot, which takes a request in plain words and hands back a finished result.",
     "developerName": "EZO Labs Inc",
     "category": "Productivity",
     "capabilities": ["Read", "Write"],
-    "websiteURL": "https://superbot.gg/download",
+    "websiteURL": "https://superbot.gg/?utm_source=codex-plugin&utm_medium=registry",
     "privacyPolicyURL": "https://superbot.gg/legal/privacy",
     "termsOfServiceURL": "https://superbot.gg/legal/terms",
     "defaultPrompt": [

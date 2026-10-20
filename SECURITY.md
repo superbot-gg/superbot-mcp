@@ -1,6 +1,6 @@
 # Security policy
 
-This repository holds the public descriptors for superbot, the agent manager app from EZO Labs Inc that manages the AI apps you already pay for.
+This repository holds the public descriptors for superbot, your own AI agent, made by EZO Labs Inc.
 
 ## Report a vulnerability
 

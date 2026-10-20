@@ -2,13 +2,13 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "superbot",
   "version": "0.1.0",
-  "description": "superbot is an agent manager app that manages the AI apps you already pay for. This plugin adds its one MCP tool, superbot, and a skill that shows your agent how to use it.",
+  "description": "superbot is your own AI agent: one model that makes pictures, video, songs, 3D and apps, browses the web and uses your computer, on desktop and phone. This plugin adds its one MCP tool, superbot, and a skill that shows your agent how to use it.",
   "author": {
     "name": "EZO Labs Inc",
-    "url": "https://superbot.gg/download"
+    "url": "https://superbot.gg/?utm_source=claude-code-plugin&utm_medium=registry"
   },
-  "homepage": "https://superbot.gg/download",
+  "homepage": "https://superbot.gg/?utm_source=claude-code-plugin&utm_medium=registry",
   "repository": "https://github.com/superbot-gg/superbot-mcp",
   "license": "MIT",
-  "keywords": ["superbot", "mcp", "agent-manager", "skills"]
+  "keywords": ["superbot", "mcp", "ai-agent", "skills"]
 }

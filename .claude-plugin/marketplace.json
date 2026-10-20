@@ -4,15 +4,15 @@
   "description": "The superbot plugin for Claude Code: one MCP tool and one skill.",
   "owner": {
     "name": "EZO Labs Inc",
-    "url": "https://superbot.gg/download"
+    "url": "https://superbot.gg/?utm_source=claude-code-plugin&utm_medium=registry"
   },
   "plugins": [
     {
       "name": "superbot",
       "source": "./",
-      "description": "superbot is an agent manager app that manages the AI apps you already pay for. This plugin adds its one MCP tool, superbot, and a skill that shows your agent how to use it.",
+      "description": "superbot is your own AI agent: one model that makes pictures, video, songs, 3D and apps, browses the web and uses your computer, on desktop and phone. This plugin adds its one MCP tool, superbot, and a skill that shows your agent how to use it.",
       "category": "productivity",
-      "tags": ["superbot", "mcp", "agent-manager"]
+      "tags": ["superbot", "mcp", "ai-agent"]
     }
   ]
 }

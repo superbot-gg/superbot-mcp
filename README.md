@@ -1,10 +1,10 @@
 # superbot for coding agents
 
-superbot is an agent manager app: a desktop app that manages the AI apps you already pay for, like Claude Code, Codex, Cursor, ChatGPT and Gemini, without wrapping or replacing them.
+superbot is your own AI agent: one model that makes pictures, video, songs, 3D and apps, browses the web and uses your computer, on desktop and phone. Try it now in your browser, free and with no account: https://superbot.gg/chat?utm_source=github&utm_medium=registry
 
-This repository holds the public descriptors that connect a coding agent to superbot: a Claude Code plugin and marketplace, a Codex plugin, a Gemini CLI extension, an MCP server entry and one skill. Every one of them points at the same remote MCP server and the same single tool, `superbot`.
+It also works with the coding agents this repository connects. This repository holds the public descriptors that connect a coding agent to superbot: a Claude Code plugin and marketplace, a Codex plugin, a Gemini CLI extension, an MCP server entry and one skill. Every one of them points at the same remote MCP server and the same single tool, `superbot`.
 
-Get the app first: https://superbot.gg/download
+Get the desktop and phone apps at https://superbot.gg/download
 
 ## Install
 
@@ -94,4 +94,4 @@ To report a vulnerability, see [SECURITY.md](SECURITY.md).
 
 MIT, see [LICENSE](LICENSE). Copyright 2026 EZO Labs Inc.
 
-<!-- claims: manage-ai-apps, web-search, read-pages, documents, images, find-install-tools -->
+<!-- claims: manage-ai-apps, web-search, read-pages, documents, images, media, find-install-tools -->

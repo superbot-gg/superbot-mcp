@@ -1,11 +1,11 @@
 ---
 name: superbot
-description: Run a request through superbot, the user's agent manager across their AI apps. Applies when the user types /superbot <request> or asks superbot to do something.
+description: Run a request through superbot, the user's own AI agent. Applies when the user types /superbot <request> or asks superbot to do something.
 ---
 
 # superbot
 
-superbot manages the AI apps and services the user already uses and hands back a finished result. It is reached through one MCP tool named `superbot` (server https://superbot.gg/mcp). That is the only tool; its input fields pick one of three modes.
+superbot is the user's own AI agent: it takes a request and hands back a finished result. It is reached through one MCP tool named `superbot` (server https://superbot.gg/mcp). That is the only tool; its input fields pick one of three modes.
 
 ## The tool
 
@@ -29,5 +29,6 @@ install the superbot MCP server globally: https://superbot.gg/mcp
 
 In Claude Code the same install is `claude mcp add --transport http superbot https://superbot.gg/mcp -s user`: superbot asks the user to sign in the first time, in their browser, and the agent needs a restart to see the new server. The link install has no sign-in step: the agent posts to `https://superbot.gg/mcp/install` with `client=claude-code`, runs the `add` command in the reply, and the account owner approves the `link_url` once.
 In Codex the same link install has no sign-in step either: the agent posts to `https://superbot.gg/mcp/install` with `client=codex`, and the reply's `config_toml` is a `[mcp_servers.superbot]` entry with its own key. A Codex config with only the endpoint `url` and no key also connects: its first `superbot` call answers with a `link_url` to approve.
+No account yet? Follow https://superbot.gg/auth.md: it signs the user in with an emailed code and gives you a token for `https://superbot.gg/mcp`.
 
 <!-- claims: manage-ai-apps -->
