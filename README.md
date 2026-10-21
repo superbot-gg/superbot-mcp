@@ -1,8 +1,10 @@
 # superbot for coding agents
 
-superbot is your own AI agent: one model that makes pictures, video, songs, 3D and apps, browses the web and uses your computer, on desktop and phone. Try it now in your browser, free and with no account: https://superbot.gg/chat?utm_source=github&utm_medium=registry
+superbot is your own AI agent: anything you can do on your computer, it can do, fast, and it runs your recurring tasks on a schedule across all your devices. Try it now in your browser, free and with no account: https://superbot.gg/chat?utm_source=github&utm_medium=registry
 
-It also works with the coding agents this repository connects. This repository holds the public descriptors that connect a coding agent to superbot: a Claude Code plugin and marketplace, a Codex plugin, a Gemini CLI extension, an MCP server entry and one skill. Every one of them points at the same remote MCP server and the same single tool, `superbot`.
+Ask it to turn your receipts into an expense sheet, sort your downloads folder every Friday, or watch a page and tell you what changes. Ask once and it sets the job up as an automation that runs on a schedule without you. Use it for business admin, personal admin and the busywork of your job. It asks before it uses your computer. It also makes pictures, video, songs, 3D and apps, and browses the web.
+
+Coding agents can use it as a tool. This repository holds the public descriptors that connect a coding agent to superbot: a Claude Code plugin and marketplace, a Codex plugin, a Gemini CLI extension, an MCP server entry and one skill. Every one of them points at the same remote MCP server and the same single tool, `superbot`.
 
 Get the desktop and phone apps at https://superbot.gg/download
 
@@ -94,4 +96,4 @@ To report a vulnerability, see [SECURITY.md](SECURITY.md).
 
 MIT, see [LICENSE](LICENSE). Copyright 2026 EZO Labs Inc.
 
-<!-- claims: manage-ai-apps, web-search, read-pages, documents, images, media, find-install-tools -->
+<!-- claims: manage-ai-apps, routines, web-search, read-pages, documents, images, media, find-install-tools -->

@@ -1,7 +1,7 @@
 {
   "name": "superbot",
   "version": "0.1.0",
-  "description": "superbot is your own AI agent: one model that makes pictures, video, songs, 3D and apps, browses the web and uses your computer, on desktop and phone. This plugin adds its one MCP tool, superbot, and a skill that shows Codex how to use it.",
+  "description": "superbot is your own AI agent: anything you can do on your computer, it can do, fast, and it runs your recurring tasks on a schedule across all your devices. This plugin adds its one MCP tool, superbot, and a skill that shows Codex how to use it.",
   "author": {
     "name": "EZO Labs Inc",
     "url": "https://superbot.gg/?utm_source=codex-plugin&utm_medium=registry"
@@ -15,7 +15,7 @@
   "interface": {
     "displayName": "superbot",
     "shortDescription": "Your own AI agent, as one MCP tool and a skill",
-    "longDescription": "superbot is your own AI agent: one model that makes pictures, video, songs, 3D and apps, browses the web and uses your computer, on desktop and phone. This plugin connects Codex to its one MCP tool, superbot, which takes a request in plain words and hands back a finished result.",
+    "longDescription": "superbot is your own AI agent: anything you can do on your computer, it can do, fast, and it runs your recurring tasks on a schedule across all your devices. This plugin connects Codex to its one MCP tool, superbot, which takes a request in plain words and hands back a finished result.",
     "developerName": "EZO Labs Inc",
     "category": "Productivity",
     "capabilities": ["Read", "Write"],
